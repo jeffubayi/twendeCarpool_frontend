@@ -10,16 +10,14 @@
   <meta name="keywords" content="">
   <meta name="author" content="">
 
-  <!-- Font Awesome if you need it
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
+  <!-- Twende Icon -->
   <link rel="shortcut icon" src="favicon.ico" />
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
-  <!--Replace with your tailwind.css once created-->
 
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <!--config tailwind.css CDN-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 
-	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+	<!--Twende Gradient design theme(blue,light-blue)-->
 	<style>
 		.gradient {
 			background: linear-gradient(90deg, #014696 0%, #51c5da 100%);
@@ -30,13 +28,14 @@
 
 <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
-<!--Nav-->
+<!--Navbar section-->
 <nav id="header" class="fixed w-full z-30 top-0 text-white">
 
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-			
+		
+		<!-- Twende logo -->
 		<div class="pl-4 flex items-center">
-			<img class ="w-30 h-30 md:w-3/5 z-50" src="navbar-logo.png">
+			<img class ="w-30 h-30 md:w-3/5 z-50" src="./Images/navbar-logo.png">
 			
 		</div>
 
@@ -71,24 +70,21 @@
 
 
 
-<!--Hero-->
+<!--Hero section-->
 <div class="pt-24">
 
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-		<!--Left Col-->
+		<!-- Twende Info --> 
 		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 			<p class=" tracking-loose w-full">Trust us, we can share you a ride</p>
 			<h1 class="my-4 text-5xl font-bold leading-tight">Carpooling Made Fun!</h1>
 			<p class="leading-normal text-1xl mb-8">We connect people traveling in the same direction - Drivers offer the empty seats in their car to other travelers going the same way.</p>
-		
-			
-
-			<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Find Trip</button>
-			
+			<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Find Trip</button>	
 		</div>
-		<!--Right Col-->
+
+		<!--Twende Carpool logo-->
 		<div class="w-full md:w-3/5 py-6 text-center">
-			<img class="w-full md:w-5/5 z-50" src="carpool2.png">
+			<img class="w-full md:w-5/5 z-50" src="./Images/carpool.png">
 		</div>
 		
 	</div>
@@ -112,33 +108,30 @@
 </div>
 
 
-
+<!-- Travel with Twende -->
 <section class="bg-white border-b py-8">
 	<div class="container max-w-5xl mx-auto m-8">
 		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Why Travel With Twende?</h1>
 		<div class="w-full mb-4">	
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
-	
+		
+		<!-- trusted svg-->
 		<div class="flex flex-wrap">
 			<div class="w-5/6 sm:w-1/2 p-6">
 				<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Trusted Community</h3>
-				<p class="text-gray-600 mb-8">Choose who you’re comfortable traveling with. Every member on our platform has a verifiable profile. Also, you can make reviews and see their rating</p>
-				
+				<p class="text-gray-600 mb-8">Choose who you’re comfortable traveling with. Every member on our platform has a verifiable profile. Also, you can make reviews and see their rating</p>	
 			</div>
-			<div class="w-full sm:w-1/2 p-6">
-				<img class="w-full md:w-2/5 z-50" src="true.png">
-				
-				
 
+			<div class="w-full sm:w-1/2 p-6">
+				<img class="w-full md:w-2/5 z-50" src="./Images/trust.png">
 			</div>
 		</div>
 		
-		
+		<!-- convenient svg -->
 		<div class="flex flex-wrap flex-col-reverse sm:flex-row">	
 			<div class="w-full sm:w-1/2 p-6 mt-6">
-				<img class="w-full md:w-2/5 z-50" src="money.svg">
-				
+				<img class="w-full md:w-2/5 z-50" src="./Images/money.svg">	
 			</div>
 			<div class="w-full sm:w-1/2 p-6 mt-6">
 				<div class="align-middle">
@@ -146,37 +139,27 @@
 					<p class="text-gray-600 mb-8">Request or offer a trip from the comfort of your phone.Arrange pickup and drop-off points by consensus.<br>Share travel costs and let’s reduce the number of cars on the road</br></p>
 				</div>
 			</div>
-		
-
 		</div>
 
 
-
-
-
+        <!-- comfort svg -->
 		<div class="flex flex-wrap">
 			<div class="w-5/6 sm:w-1/2 p-6">
 				<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Comfort and company</h3>
-				<p class="text-gray-600 mb-8">Enjoy personalized space and great company on your trip. Meet interesting people, build your network</p>
-				
+				<p class="text-gray-600 mb-8">Enjoy personalized space and great company on your trip. Meet interesting people, build your network</p>	
 			</div>
 			<div class="w-full sm:w-1/2 p-6">
-				<img class="w-full md:w-2/5 z-50" src="rides.svg">
-				
-				
-
+				<img class="w-full md:w-2/5 z-50" src="./Images/rides.svg">
 			</div>
 		</div>
 
-
-
-
 	</div>
+
 </section>
 		
 		
 		
-
+<!-- How it work section-->
 <section class="bg-white border-b py-8">
 	
 	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
@@ -185,7 +168,8 @@
 		<div class="w-full mb-4">	
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
-	
+
+	    <!--Twende pass desc-->
 		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -204,7 +188,7 @@
 		</div>
 		
 		
-		
+		<!-- Twende driver desc-->
 		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
@@ -229,10 +213,10 @@
 
 </section>
 
+
+<!--Download Twende section-->
 <section class="bg-gray-100 py-8">
 
-
-	
 	<div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
 
 		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Download the App</h1>
@@ -241,19 +225,14 @@
 			
 		</div>
 		
-		
-	
-	
-		
+		<!--Twende Phone Image-->
 		<div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
 			<div class="w-full sm:w-1/2 p-6">
-				<img class="w-full md:w-4/5 z-50" src="phone.png">
+				<img class="w-full md:w-4/5 z-50" src="./Images/phone.png">
 			</div>
+				
 			
-			
-			
-			
-			
+		 <!--Twende google-play-link-->	
 			<div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
@@ -261,11 +240,7 @@
 					<ul class="w-full text-center text-base font-bold ">
 						<li class=" text-2xl  py-4">Cost-sharing made easy. Comfortable, convenient, fun. Travel the right way. Our way. Now available on Google Play.</li>
 					</ul>
-					<div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>	
-					
-
-			
-				
+					<div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
 	                <div>
 					   <div class="flex items-center pt-5 justify-center">
 						  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Download</button>
@@ -273,10 +248,8 @@
 				    </div>
 				</div>
 			</div>
-			
 
-		</div>
-		
+		</div>	
 	</div>
 		
 		
@@ -302,6 +275,8 @@
 	</g>
 </svg>
 
+
+<!--Contact-->
 <section class="container mx-auto text-center py-6 mb-12">
 
 	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Get In Touch</h1>
@@ -316,6 +291,8 @@
 </section>
 
 
+
+
 <!--Footer-->
 <footer class="bg-white">
 	<div class="container mx-auto  px-8">
@@ -326,7 +303,7 @@
 			
 				<div class="pl-4 flex items-center">
 					<img class ="w-30 h-30 md:w-2ls
-					/5 z-50" src="navbar-logo.png">
+					/5 z-50" src="./Images/navbar-logo.png">
 					
 				</div>
 			</div>
@@ -393,100 +370,7 @@
 </footer>
 
 
-
-
-  <!-- jQuery if you need it
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  -->
-
-<script>
-
-	var scrollpos = window.scrollY;
-	var header = document.getElementById("header");
-	var navcontent = document.getElementById("nav-content");
-	var navaction = document.getElementById("navAction");
-	var brandname = document.getElementById("brandname");
-	var toToggle = document.querySelectorAll(".toggleColour");
-
-	document.addEventListener('scroll', function() {
-
-	/*Apply classes for slide in bar*/
-	scrollpos = window.scrollY;
-
-    if(scrollpos > 10){
-      header.classList.add("bg-white");
-	  navaction.classList.remove("bg-white");
-	  navaction.classList.add("gradient");
-	  navaction.classList.remove("text-gray-800");
-	  navaction.classList.add("text-white");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-gray-800");
-		 toToggle[i].classList.remove("text-white");
-	  }
-	  header.classList.add("shadow");
-	  navcontent.classList.remove("bg-gray-100");
-	  navcontent.classList.add("bg-white");
-    }
-    else {
-	  header.classList.remove("bg-white");
-	  navaction.classList.remove("gradient");
-	  navaction.classList.add("bg-white");
-	  navaction.classList.remove("text-white");
-	  navaction.classList.add("text-gray-800");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-white");
-		 toToggle[i].classList.remove("text-gray-800");
-	  }
-	  
-	  header.classList.remove("shadow");
-	  navcontent.classList.remove("bg-white");
-	  navcontent.classList.add("bg-gray-100");
-	  
-    }
-
-	});
-
-	
-</script>
-
-<script>
-	
-	
-	/*Toggle dropdown list*/
-	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
-	
-	var navMenuDiv = document.getElementById("nav-content");
-	var navMenu = document.getElementById("nav-toggle");
-	
-	document.onclick = check;
-	function check(e){
-	  var target = (e && e.target) || (event && event.srcElement);
-	  
-	  //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-		// click NOT on the menu
-		if (checkParent(target, navMenu)) {
-		  // click on the link
-		  if (navMenuDiv.classList.contains("hidden")) {
-			navMenuDiv.classList.remove("hidden");
-		  } else {navMenuDiv.classList.add("hidden");}
-		} else {
-		  // click both outside link and outside menu, hide menu
-		  navMenuDiv.classList.add("hidden");
-		}
-	  }
-	  
-	}
-	function checkParent(t, elm) {
-	  while(t.parentNode) {
-		if( t == elm ) {return true;}
-		t = t.parentNode;
-	  }
-	  return false;
-	}
-</script>
+<script src="index.js"></script>
 
 
 </body>
